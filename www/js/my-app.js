@@ -263,13 +263,9 @@ $$(document).on('page:init', '.page[data-name="fin"]', function (e) {
   console.log('puntajeJ2 = '+puntajeJ2);
 
   $$("#felicitaciones").html("¡¡Felicitaciones" + " "+ ganador + " has ganado!!");
-<<<<<<< HEAD
   $$("#puntuacionFinal1").html(nombreJugador1 +": " + puntajeJ1)
   $$("#puntuacionFinal2").html(nombreJugador2 + ": " + puntajeJ2)
-=======
   $$("#puntuacionFinal1").html(nombreJugador1 +" " + puntajeJ1)
   $$("#puntuacionFinal2").html(nombreJugador2 + " " + puntajeJ2)
->>>>>>> e3044d8d3f1b3a95d9c1adbf60273da0b3c7c809
-  
   //button volver al anotador
 })
